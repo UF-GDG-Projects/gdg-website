@@ -29,28 +29,28 @@ export default function About() {
             <div className="flex">
               <figure className="-mr-6 rounded-full -2 border-blue">
                 <img
-                  src="/photos/officers/JackHar.JPG"
+                  src="/photos/officers/jack-president.jpg"
                   alt=""
                   className="h-14 w-14 rounded-full"
                 />
               </figure>
               <figure className="-mr-6 rounded-full border-2 border-red">
                 <img
-                  src="/photos/officers/harshil_profile.jpg"
+                  src="/photos/officers/andrew-vp.png"
                   alt=""
                   className="h-14 w-14 rounded-full"
                 />
               </figure>
               <figure className="-mr-6 rounded-full border-2 border-yellow">
                 <img
-                  src="/photos/officers/sargam.png"
+                  src="/photos/officers/sophie-treasurer.png"
                   alt=""
                   className="h-14 w-14 rounded-full"
                 />
               </figure>
               <figure className="rounded-full border-2 border-green">
                 <img
-                  src="/photos/officers/AndrewChuang.jpg"
+                  src="/photos/officers/sai-social.jpg"
                   alt=""
                   className="h-14 w-14 rounded-full"
                 />

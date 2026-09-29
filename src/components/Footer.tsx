@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="whitespace-nowrap">
           <p className="cal text-3xl">Google Developer Group on Campus</p>
           <p className="sm:pt-2 pt-4 text-sm leading-relaxed text-dull">
-            © Copyright 2025 UF Google Developer Group on Campus. <br /> All Rights
-            Reserved.
+            © {new Date().getFullYear()} UF Google Developer Group on Campus. <br />
+            All rights reserved.
           </p>
           <div className="flex items-center gap-4 pt-3 text-[22px] text-dull">
             
@@ -44,7 +44,7 @@ export default function Footer() {
             <p className="font-medium">GDG on Campus Info</p>
             <div className="grid gap-5 mt-5 text-sm pr-2">
               <a target="_blank" href="https://developers.google.com/community">About GDG on Campus</a>
-              <a target="_blank" href="https://developers.google.com/community/gdsc-solution-challenge">Solution Challenge</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/FZ8Yj1cjWWCwoR4x9">DevFest registration</a>
             </div>
           </div>
          

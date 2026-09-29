@@ -7,14 +7,6 @@ import {
   FaUser,
 } from "react-icons/fa";
 
-// const messages = [
-//   "Hi, welcome to the GDG on Campus at the University of Florida! Do you have any questions?",
-//   "Hello, how do I become a member?",
-//   "Becoming a member is as easy as joining our discord server!",
-//   "Do you have any exciting events coming soon?",
-//   "Yes! This spring the club is competing in the Google Solution Challenge. There is a large prize pool and it is a great opprutunity to create a project that you can add to your Resume",
-// ];
-
 export default function Discord() {
   return (
     <div className="h-[400px] w-full rounded-xl border border-grayer p-1 sm:w-auto xl:translate-x-[9px]">
@@ -84,8 +76,8 @@ export default function Discord() {
                 <img src="/dsc.png" alt="" className="w-5" />
               </figure>
               <p className="text-xs tracking-wide text-dull">
-                Yes! This spring the club is competing in the Google
-                Solution Challenge. More coming soon!
+                Yes! DevFest includes a hackathon this fall. Register by
+                October 17!
               </p>
             </div>
           </div>
@@ -103,5 +95,3 @@ export default function Discord() {
     </div>
   );
 }
-
-

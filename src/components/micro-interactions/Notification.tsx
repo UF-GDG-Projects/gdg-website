@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const notifications = [
-  { name: "Harshil Pahuja", time: "5m ago" },
-  { name: "Sargam Thakur", time: "10m ago" },
-  { name: "Andrew Chuang-Saladin", time: "15m ago" },
+  { name: "Theo Weise", time: "5m ago" },
+  { name: "Jack Detweiler", time: "10m ago" },
+  { name: "Andrew Chuang Saladin", time: "15m ago" },
   { name: "Jack Harris", time: "20m ago" },
-  { name: "Sivan Pushpagiri", time: "Just Now" },
+  { name: "Weedchenska Jeanbaptiste", time: "Just Now" },
 ];
 
 export default function Notification() {

@@ -6,7 +6,7 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Officers from "./components/Officers";
-import SolutionChallenge from "./components/SolutionChallenge";
+import DevFest from "./components/DevFest";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
         <div className="mx-auto min-h-screen max-w-[1200px] border-x border-grayer px-1.5 sm:px-3">
           <CTA />
           <About />
-          <SolutionChallenge />
+          <DevFest />
           <Events />
           <Officers />
           <FAQ />

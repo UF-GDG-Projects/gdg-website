@@ -9,52 +9,76 @@ type Officer = {
 
 const officers: Officer[] = [
   {
-    name: "Harshil Pahuja",
-    role: "President",
-    img: "/photos/officers/harshil_profile.jpg",
-    linkedin: "https://www.linkedin.com/in/harshil-pahuja/",
-  },
-  {
-    name: "Sargam Thakur",
-    role: "Vice President",
-    img: "/photos/officers/sargam.png",
-    linkedin: "https://www.linkedin.com/in/sargam-thakur/",
-  },
-  {
-    name: "Krish Saluja",
-    role: "Treasurer",
-    img: "/photos/officers/KrishSal.jpg",
-    linkedin: "https://www.linkedin.com/in/krish-saluja/",
-  },
-  {
     name: "Jack Harris",
-    role: "Technical Lead",
-    img: "/photos/officers/JackHar.JPG",
+    role: "President",
+    img: "/photos/officers/jack-president.jpg",
     linkedin: "https://www.linkedin.com/in/jack-harris-uf/",
   },
   {
-    name: "Andrew Chuang-Saladin",
-    role: "Technical Lead",
-    img: "/photos/officers/AndrewChuang.jpg",
+    name: "Andrew Chuang Saladin",
+    role: "Vice President",
+    img: "/photos/officers/andrew-vp.png",
     linkedin: "https://www.linkedin.com/in/andrew-cs/",
   },
   {
-    name: "Sivan Pushpagiri",
-    role: "Technical Lead",
-    img: "/photos/officers/Sivan.jpg",
-    linkedin: "https://www.linkedin.com/in/sivan-pushpagiri-554465249/",
+    name: "Sophie Daniel",
+    role: "Treasurer",
+    img: "/photos/officers/sophie-treasurer.png",
+    linkedin: "https://www.linkedin.com/in/sophie-daniel-846b20284/",
   },
   {
-    name: "Catherine Kennedy",
+    name: "Theo Weise",
+    role: "Technical Lead",
+    img: "/photos/officer-img-placeholder.png",
+    linkedin: "https://www.linkedin.com/in/atweise/",
+  },
+  {
+    name: "Jack Detweiler",
+    role: "Technical Lead",
+    img: "/photos/officers/jack-tech.png",
+    linkedin: "https://www.linkedin.com/in/jack-detweiler/",
+  },
+  {
+    name: "Weedchenska Jeanbaptiste",
+    role: "Technical Lead",
+    img: "/photos/officers/weedchenska-tech.jpg",
+    linkedin: "https://www.linkedin.com/in/weedchenska-jeanbaptiste/",
+  },
+  {
+    name: "Zach Zaslau",
+    role: "Hackathon Lead",
+    img: "/photos/officers/zach-hackathon.jpg",
+    linkedin: "https://www.linkedin.com/in/zacharyzaslau/",
+  },
+  {
+    name: "Felix Chang",
+    role: "Hackathon Lead",
+    img: "/photos/officers/felix-hackathon.png",
+    linkedin: "https://www.linkedin.com/in/felix-chang01/",
+  },
+  {
+    name: "Carlos Mendez",
+    role: "Hackathon Lead",
+    img: "/photos/officers/carlos-hackathon.png",
+    linkedin: "https://www.linkedin.com/in/carlomen/",
+  },
+  {
+    name: "Sai Rajan",
     role: "Social Lead",
-    img: "/photos/officers/CatherineKennedy.PNG",
-    linkedin: "https://www.linkedin.com/in/catherinelykennedy/",
+    img: "/photos/officers/sai-social.jpg",
+    linkedin: "https://www.linkedin.com/in/sai-rajan-1649991a3999r4/",
   },
   {
     name: "Mishka Sonavadekar",
     role: "Marketing Lead",
-    img: "/photos/officers/MSonavadekar.jpg",
+    img: "/photos/officers/mishka-marketing.jpg",
     linkedin: "https://www.linkedin.com/in/mishka-sonavadekar/",
+  },
+  {
+    name: "Lu Ighodalo",
+    role: "Outreach Lead",
+    img: "/photos/officers/lu-outreach.png",
+    linkedin: "https://www.linkedin.com/in/luighodalo/",
   },
 ];
 
@@ -87,6 +111,7 @@ const Officer: React.FC<OfficerProps> = ({ officer }) => {
           className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white opacity-0 scale-90 hover:opacity-100 hover:scale-100 officer-transition-timing"
           href={officer.linkedin}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <p className="text-center leading-normal">
             View <span className="text-blue">{name}'s</span> <br />
@@ -98,10 +123,10 @@ const Officer: React.FC<OfficerProps> = ({ officer }) => {
         </a>
       )}
       <figure>
-        <img src={officer.img} alt="" className="h-20 rounded-full" />
+        <img src={officer.img} alt="" className="h-20 w-20 rounded-full object-cover" />
       </figure>
-      <p className="pt-4">{officer.name}</p>
-      <p className="pt-0.5 text-sm text-dull">{officer.role}</p>
+      <p className="pt-4 text-center">{officer.name}</p>
+      <p className="pt-0.5 text-center text-sm text-dull">{officer.role}</p>
     </div>
   );
 };

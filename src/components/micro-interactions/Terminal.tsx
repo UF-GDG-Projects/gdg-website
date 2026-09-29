@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence} from 'framer-motion';
 
 const messages = [
-  'Andrew Chuang-Saladin created a repository "new project".',
-  'Sargam Thakur created a new branch "md/Animations".',
-  'Harshil Pahuja created a pull request "PR 1".',
+  'Andrew Chuang Saladin created a repository "new project".',
+  'Jack Detweiler created a new branch "md/Animations".',
+  'Theo Weise created a pull request "PR 1".',
   'Jack Harris deployed the project to vercel.',
 ];
 

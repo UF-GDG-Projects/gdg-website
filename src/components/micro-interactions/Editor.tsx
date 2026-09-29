@@ -40,7 +40,7 @@ export default function Editor() {
                 tree::tree(){}; // Todo: Create constuctor&nbsp;
                 <div className="relative h-4 w-0.5 bg-yellow">
                   <span className="absolute -top-3 sm:-top-4 whitespace-nowrap rounded-sm bg-yellow px-1 text-[9px] text-black">
-                  H Pahuja
+                  T Weise
                   </span>
                 </div>
               </div>
